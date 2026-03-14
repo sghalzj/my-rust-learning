@@ -24,7 +24,7 @@ fn main() {
             Ok(_) => {
                 println!("Please type a number between 1 to 100!");
                 continue;
-            }
+            },
             Err(_) => {
                 println!("Please type a number!");
                 continue;
